@@ -20,8 +20,6 @@ Ontbo’s **Alex** persona and a small set of assets to help you run basic, loca
    - Double-click the main entry file inside `HTML/` (commonly `index.html`).  
    - If there’s no `index.html`, open the most relevant HTML file in that folder and follow on-screen instructions.
 
-> The repository is predominantly HTML (≈86.5%), so the browser demo is the most direct way to poke at the persona. :contentReference[oaicite:4]{index=4}
-
 ### Option B — Python utilities
 
 1. Ensure you have **Python 3.10+** installed.
