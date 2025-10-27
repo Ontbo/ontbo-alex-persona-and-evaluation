@@ -5,9 +5,9 @@ Ontbo’s **Alex** persona and a small set of assets to help you run basic, loca
 
 ## What’s in this repo
 
-- `HTML/` — a static, local demo you can open in your browser to explore or sanity-check the Alex persona.
-- `Python/` — minimal Python utilities intended for simple, scriptable evaluations.
-- `Persona.zip` — a compressed bundle that contains the Alex persona specification (and possibly supporting prompts/data). Unzip this in the repository root to use.
+- `HTML/` — a static, local version of the experiment you can open in your browser.
+- `Python/` — minimal Python utilities intended for simple, scriptable experiment and evaluations.
+- `Persona.zip` — a compressed bundle that contains the Alex persona specification. Unzip this in the repository root to use.
 
 ---
 
