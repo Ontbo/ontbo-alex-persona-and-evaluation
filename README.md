@@ -1,15 +1,13 @@
 # Ontbo — Alex Persona & Evaluation
 
-Ontbo’s **Alex** persona and a small set of assets to help you run basic, local evaluations of a role-played AI assistant. The repository currently contains an `HTML/` demo folder, a `Python/` folder, and a `Persona.zip` bundle with the core persona materials. :contentReference[oaicite:0]{index=0}
+Ontbo’s **Alex** persona and a small set of assets to help you run basic, local evaluations of a role-played AI assistant. The repository currently contains an `HTML/` demo folder, a `Python/` folder, and a `Persona.zip` bundle with the core persona materials.
 
 
 ## What’s in this repo
 
 - `HTML/` — a static, local demo you can open in your browser to explore or sanity-check the Alex persona.
 - `Python/` — minimal Python utilities intended for simple, scriptable evaluations.
-- `Persona.zip` — a compressed bundle that contains the Alex persona specification (and possibly supporting prompts/data). Unzip this in the repository root to use. :contentReference[oaicite:2]{index=2}
-
-> Tip: If your file explorer shows only the three items above, you’re seeing the expected layout for this initial drop. :contentReference[oaicite:3]{index=3}
+- `Persona.zip` — a compressed bundle that contains the Alex persona specification (and possibly supporting prompts/data). Unzip this in the repository root to use.
 
 ---
 
@@ -18,8 +16,7 @@ Ontbo’s **Alex** persona and a small set of assets to help you run basic, loca
 ### Option A — HTML demo
 
 1. **Clone or download** this repository.
-2. **Unzip `Persona.zip`** in the repository root (it should create one or more persona files/directories next to `HTML/` and `Python/`).
-3. **Open the demo**:
+2. **Open the demo**:
    - Double-click the main entry file inside `HTML/` (commonly `index.html`).  
    - If there’s no `index.html`, open the most relevant HTML file in that folder and follow on-screen instructions.
 
@@ -33,3 +30,11 @@ Ontbo’s **Alex** persona and a small set of assets to help you run basic, loca
    python -m venv .venv
    source .venv/bin/activate  # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
+
+## Analyze
+
+A simple answer analyzer is available in Python folder, calculating the means of each type of answer.
+
+## Persona
+
+Persona used in this experiment is available in a ZIP folder in repository root. 
